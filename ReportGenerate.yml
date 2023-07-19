@@ -1,0 +1,8 @@
+apps:
+  - name: ReportGenerate Report (JOB)
+    script: artisan
+    exec_mode: fork
+    interpreter: php
+    instances: 1
+    args:
+      - ReportGenerate
